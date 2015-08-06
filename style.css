@@ -12,3 +12,9 @@ License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
 
 bootstrap. wordpress. fixed nav. in a sandwich.
 */
+@import url('bootstrap/css/bootstrap.css'); 
+@import url('bootstrap/css/bootstrap-responsive.css'); 
+body { 
+     padding-top: 60px; 
+     padding-bottom: 40px; 
+}
