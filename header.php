@@ -1,5 +1,4 @@
 
-<?php get_header();	?>
 <!DOCTYPE html>
 <!-- saved from url=(0050)http://getbootstrap.com/examples/navbar-fixed-top/ -->
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -14,11 +13,11 @@
     <title>Fixed Top Navbar Example for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
-   <link href="<?php bloginfo('');?>" rel="stylesheet">
-    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+   <link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet">
+<!--    <link href="" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-	<link href="<?php bloginfo('../bootstrap/css/navbar-fixed-top.css');?>" rel="stylesheet">
+	<link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet">
     
 	<!--
 	<link href="../bootstrap/css/navbar-fixed-top.css" rel="stylesheet">
@@ -35,4 +34,3 @@
     <![endif]-->
   </head>
 
-<?php get_footer();	?>

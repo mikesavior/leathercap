@@ -1,3 +1,4 @@
+<?php get_header();	?>
   <body>
 
     <!-- Fixed navbar -->
@@ -40,3 +41,4 @@
     </nav>
 
     <div class="container">
+<?php get_footer();	?>
